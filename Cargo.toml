@@ -1,0 +1,12 @@
+[package]
+authors = ["Michael P. Jung <michael.jung@terreon.de>"]
+edition = "2018"
+name = "lapin-highlevel"
+version = "0.1.0"
+
+[dependencies]
+futures-util = "0.3"
+lapin = "0.35"
+tokio = { version = "0.2", features = ["rt-core", "macros"] }
+log = "*"
+pretty_env_logger = "*"
